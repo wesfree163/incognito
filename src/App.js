@@ -1,21 +1,21 @@
 import './App.css';
-import $ from "jquery";
+// import $ from "jquery";
 import React from 'react';
-import logo from './logo.svg';
-import Amplify from 'aws-amplify';
+// import logo from './logo.svg';
+// import Amplify from 'aws-amplify';
 import ilogo from './img/ilogo.png';
 import userI from './img/userIcon.png';
-import awsconfig from './aws-exports';
+// import awsconfig from './aws-exports';
 import Button from 'react-bootstrap/Button';
-import SearchField from 'react-search-field';
+// import SearchField from 'react-search-field';
 import {AmplifySignOut, withAuthenticator } from '@aws-amplify/ui-react';
 
 
-Amplify.configure(awsconfig)
+// Amplify.configure(awsconfig)
 
-const searchStyle = {
+// const searchStyle = {
   
-};
+// };
 
 function App() {
   return (
@@ -61,10 +61,10 @@ function App() {
         </div> */}
         
         <Button className="submit">Submit</Button> 
-        <AmplifySignOut className="AmplifySignOut"/>  
+        {/* <AmplifySignOut className="AmplifySignOut"/>   */}
       </header>
     </div>
   );
 }
 
-export default withAuthenticator(App);
+export default App;

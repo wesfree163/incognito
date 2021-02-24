@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "amplifyreactapp6fbc5fce_identitypool_6fbc5fce",
+    "identityPoolName": "incognitoappbackupbc63554d_identitypool_bc63554d",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "amplif6fbc5fce",
-    "userPoolName": "amplifyreactapp6fbc5fce_userpool_6fbc5fce",
+    "resourceNameTruncated": "incognbc63554d",
+    "userPoolName": "incognitoappbackupbc63554d_userpool_bc63554d",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "amplif6fbc5fce_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "incognbc63554d_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "6fbc5fce",
-    "resourceName": "amplifyreactapp6fbc5fce",
+    "sharedId": "bc63554d",
+    "resourceName": "incognitoappbackupbc63554d",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -49,8 +49,13 @@
     "usernameAttributes": [
         "email"
     ],
+    "triggers": "{}",
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "permissions": [],
     "dependsOn": []
 }
